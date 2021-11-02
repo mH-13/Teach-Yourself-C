@@ -1,0 +1,11 @@
+return_type function_name(parameters)
+{
+    function_body
+    return value
+}
+
+return_type: The type of data that will return from the function after finishing the task( int, double, void[return nothing]....etc)
+function name: A meaningful name of that function(sqrt..)
+parameters: Nessery data to complete the task by the function. It maybe empty[ main(), getchar()]
+funciton body: How the function will work.
+return value: Every function returns to where its called. we can also return a value with it.
