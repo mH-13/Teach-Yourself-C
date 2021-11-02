@@ -9,3 +9,7 @@ function name: A meaningful name of that function(sqrt..)
 parameters: Nessery data to complete the task by the function. It maybe empty[ main(), getchar()]
 funciton body: How the function will work.
 return value: Every function returns to where its called. we can also return a value with it.
+
+# we can use fnction after the main() - for that we need to use function prototype before main()
+#Local variale: Does not affect others functions variable. 
+#Global variable: It exists within the all function in a code.
