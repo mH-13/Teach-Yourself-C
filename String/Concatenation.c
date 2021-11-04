@@ -8,15 +8,15 @@ int main()
     {
         str4[j] = str1[i];
     }
-    for (i = 0, j = 0; i < len2; i++, j++)
+    for (i = 0; i < len2; i++, j++)
     {
         str4[j] = str2[i];
     }
-    for (i = 0, j = 0; i < len3; i++, j++)
+    for (i = 0; i < len3; i++, j++)
     {
         str4[j] = str3[i];
     }
-    str4[j] = '\0';
+    str4[j] = '\0'; //it confirm that the string has ended.
     printf("%s\n", str4);
     return 0;
 }
