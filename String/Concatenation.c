@@ -1,3 +1,4 @@
+// Basic way to add up two string in c
 #include <stdio.h>
 int main()
 {
