@@ -6,8 +6,8 @@ int main(){
     int i, len, is_word_started;
     get(s);
     is_word_started = 0;
-    for(i=0; i<len; i++){
-        if(s[i]>='a' && s[i]<='z'){
+    for(i=0; i < len; i++){
+        if(s[i] >= 'a' && s[i] <= 'z'){
             if(is_word_started==0){
                 is_word_started =1;
                 ch ='A' + s[i] - 'a';
