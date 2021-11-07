@@ -10,7 +10,7 @@ int main()
     is_word_started = 0;
     for (i = 0, j = 0; i < len; i++)
     {
-        if (s[i] <= 'a' && s[i] <= 'z')
+        if (s[i] >= 'a' && s[i] <= 'z')
         {
             if (is_word_started == 0)
             {
@@ -20,7 +20,7 @@ int main()
             }
             else
             {
-                word[j = s[i]];
+                word[j] = s[i];
                 j++;
             }
         }
@@ -33,7 +33,7 @@ int main()
             word[j] = s[i];
             j++;
         }
-        else if (s[i] >= '0' && s[i] <= 9)
+        else if (s[i] >= '0' && s[i] <= '9')
         {
             if (is_word_started == 0)
             {
