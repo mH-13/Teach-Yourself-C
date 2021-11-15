@@ -7,7 +7,14 @@
 
 #include <stdio.h>
 int main(){
-    int marks[4][5] = {{80,85,90,65,72},{80,85,90,65,72},{80,85,90,65,72},{80,85,90,65,72}};
+    //int marks[4][5] = {{80,85,90,65,72},{80,85,90,65,72},{80,85,90,65,72},{80,85,90,65,72}};
+    int marks[4][5];
+    int i,j;
+    for(i=0; i<4;i++){
+        for(j=0; j<5; j++){
+            scanf("%d", &marks[i][j]);
+        }
+    }
     int col;
     for(col=0; col<5;col++){
         marks[3][col] = marks[0][col]/ 4.0 + marks[1][col] /4.0 + marks[2][col]/ 2.0;
