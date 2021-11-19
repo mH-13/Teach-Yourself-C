@@ -1,0 +1,3 @@
+Computer use Binary Number System rather than normal Decimal Number System.
+Only two number -- 0 & 1
+we will learn some basic use of Binray in code and also how to convert them to decimal how to convert decima to binary.
