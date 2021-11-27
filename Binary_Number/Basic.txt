@@ -1,3 +1,23 @@
 Computer use Binary Number System rather than normal Decimal Number System.
 Only two number -- 0 & 1
 we will learn some basic use of Binray in code and also how to convert them to decimal how to convert decima to binary.
+0 + 0 = 0
+0 + 1 = 1 
+1 + 0 = 1
+1 + 1 = 10
+
+
+0 - 0 = 0
+1 - 0 = 1
+1 - 1 = 10
+0 - 1 = 1 
+
+
+Decimal to Binary:
+  Fristly we need to write exponential expression of that Binary number.
+  10110 = 1*2^4 + 0*2^3 + 1*2^2 + 1*2^1 + 0*2^0
+        = 16 + 0 + 4 + 2 + 0
+        = 22
+  so Binary 10110 = Decimal 22
+
+***pow(a,b) = a^b
